@@ -50,16 +50,16 @@ void mergeSort(int a[], int l, int r){
 }
 
 int main() {
-	int i;
-	int a[10] = {1,9,2,8,3,7,4,6,5,2};
-	cout<<"Array before merge sort is ";
-	for(i=0;i<10;i++){
+  int i;
+  int a[10] = {1,9,2,8,3,7,4,6,5,2};
+  cout<<"Array before merge sort is ";
+  for(i=0;i<10;i++){
     cout<<a[i]<<" ";
-	}
-	mergeSort(a, 0 , 9);
-	cout<<"\nArray after merge sort is ";
-	for(i=0;i<10;i++){
+  }
+  mergeSort(a, 0 , 9);
+  cout<<"\nArray after merge sort is ";
+  for(i=0;i<10;i++){
     cout<<a[i]<<" ";
-	}
-	return 0;
+  }
+  return 0;
 }
