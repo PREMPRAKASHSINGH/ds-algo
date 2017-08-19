@@ -25,15 +25,15 @@ void quickSort(int a[], int l, int r){
   }
 }
 int main() {
-	int a[10] = {9,1,8,2,7,3,6,4,5,2};
-	cout<<"Array before quickSort is : ";
-	for(int i=0;i<10;i++){
+  int a[10] = {9,1,8,2,7,3,6,4,5,2};
+  cout<<"Array before quickSort is : ";
+  for(int i=0;i<10;i++){
     cout<<a[i]<<" ";
-	}
-	quickSort(a,0,9);
-	cout<<"\nArray after quickSort is ";
-	for(int i=0;i<10;i++){
+  }
+  quickSort(a,0,9);
+  cout<<"\nArray after quickSort is ";
+  for(int i=0;i<10;i++){
     cout<<a[i]<<" ";
-	}
-	return 0;
+  }
+  return 0;
 }
