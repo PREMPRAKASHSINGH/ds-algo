@@ -24,7 +24,7 @@ int main() {
   cout<<"enter key to search in the list ";
   cin>>key;
   index = binarySearch(list, 0, 9, key);
-  if(key == -1){
+  if(index == -1){
     cout<<key<<" not found in the list.";
   }else{
     cout<<key<<" found at index "<<index;
