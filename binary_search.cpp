@@ -8,9 +8,9 @@ int binarySearch(int* a, int l, int r, int key){
       return mid;
     }
     if(a[key]<mid){
-      binarySearch(a, l, mid, key);
+      return binarySearch(a, l, mid, key);
     }else if(a[key]>mid){
-      binarySearch(a, mid+1, r, key);
+      return binarySearch(a, mid+1, r, key);
     }
   }else{
     return -1;
